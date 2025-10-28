@@ -11,7 +11,7 @@ const Navbar = () => {
       
         {/* Logo */}
         <div className="logo md:flex items-center justify-center mx-4 px-4">
-          <img src="/logo_transparent.png" alt="logo" width={40} />
+         <img src="logo_transparent.png" alt="logo" width={40} />
           <h1 className="text-2xl font-bold text-pink-500">Parlour</h1>
         </div>
 
@@ -48,10 +48,10 @@ const Navbar = () => {
           {/* Mobile Nav Links */}
           <div className="mobile-menu md:hidden lg:hidden">
             <ul className="flex flex-col gap-8 p-6 text-lg text-center">
-              <Link to="/home" className="hover:text-xl duration-150 ease-in hover:text-pink-500"><li>Home</li></Link>
-              <Link to="/services" className="hover:text-xl duration-150 hover:text-pink-500"><li>Services</li></Link>
-              <Link to="/about" className="hover:text-xl duration-150 hover:text-pink-500"><li>About</li></Link>
-              <Link to="/contact" className="hover:text-xl duration-150 hover:text-pink-500"><li>Contact</li></Link>
+              <Link to="/home" className="hover:text-xl duration-150 ease-in hover:text-pink-500" onClick={()=>{setShowMenu(false)}}><li>Home</li></Link>
+              <Link to="/services" className="hover:text-xl duration-150 hover:text-pink-500" onClick={()=>{setShowMenu(false)}}><li>Services</li></Link>
+              <Link to="/about" className="hover:text-xl duration-150 hover:text-pink-500" onClick={()=>{setShowMenu(false)}}><li>About</li></Link>
+              <Link to="/contact" className="hover:text-xl duration-150 hover:text-pink-500" onClick={()=>{setShowMenu(false)}}><li>Contact</li></Link>
             </ul>
           </div>
         </div>

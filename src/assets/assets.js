@@ -4,7 +4,7 @@ import home_image from './home_image.jpg'
 import profile_img_1 from './profile_img1.jpg'
 import profile_img_2 from './profile_img2.jpg'
 import profile_img_3 from './profile_img3.jpg'
-import Star_icon from './Star_icon.svg'
+import Star_icon from './star_icon.svg'
 
 export const assets = {
     cross_icon,
