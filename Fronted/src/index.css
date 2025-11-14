@@ -1,0 +1,11 @@
+
+
+@keyframes fade {
+  0%, 100% { opacity: 0; }
+  10%, 30% { opacity: 1; }
+  40%, 90% { opacity: 0; }
+}
+
+.animate-fade { animation: fade 15s infinite; }
+.animate-fade1 { animation: fade 15s infinite 5s; }
+.animate-fade2 { animation: fade 15s infinite 10s; }
